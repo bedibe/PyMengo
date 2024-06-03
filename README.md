@@ -2,7 +2,7 @@
 <h2> Desenvolver um sistema de gerenciamento utilizando a linguagem de programação Python, um banco de dados relacional e a biblioteca Tkinter para criação das interfaces gráficas.</h2>
   <br>
 <p>Requisitos:</p>
-<p></p>1.
+<p>1.
 Crie um sistema que permita ao usuário adicionar, visualizar, atualizar e excluir.
  </p>
 <p>2.
@@ -61,18 +61,16 @@ PyMengo/
 │
 ├── main.py         # Código principal do projeto
 ├── tasks # Banco de dados SQLite (gerado automaticamente)
-└── login # Informações de login dos usuários (gerado automaticamente)
-└── login_log # Informações de qual usuário logou, com data e hora (gerado automaticamente)
+└── login # Informações de login dos usuários (arquivo de texto gerado automaticamente) 
+└── login_log # Informações de qual usuário logou, com data e hora (arquivo de texto gerado automaticamente)
 ```
 
 <h1>🔗⛹Links da Equipe</h1>
 
 <h2>Bernardo:</h2>
-<p>Linkdin - https://www.linkedin.com/in/bernardo-adelino-1a9335232/ </p>
 <p>Github -https://github.com/bedibe </p> 
 
 <h2>João Pedro :</h2>
-<p>Linkdin -  <p>
 <p>Github - https://github.com/jpalmeida01</p>
 
 
