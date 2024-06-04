@@ -87,6 +87,12 @@ class TaskManager:
         self.description_entry = tk.Entry(self.frame_middle, width=50, borderwidth="10", bg="red", font="arial", foreground="black")
         self.description_entry.pack(side=tk.LEFT, padx=5)
 
+        # Layout dos botoes da funcionalidades
+        tk.Button(self.frame_bottom, text="Add Task", command=self.add_task, borderwidth="10", bg="black", font="arial", foreground="white").pack(side=tk.LEFT, padx=5)
+        tk.Button(self.frame_bottom, text="Update Task", command=self.update_task, borderwidth="10", bg="black", font="arial", foreground="white").pack(side=tk.LEFT, padx=5)
+        tk.Button(self.frame_bottom, text="Delete Task", command=self.delete_task, borderwidth="10", bg="black", font="arial", foreground="white").pack(side=tk.LEFT, padx=5)
+        tk.Button(self.frame_bottom, text="View Tasks", command=self.view_tasks, borderwidth="10", bg="black", font="arial", foreground="white").pack(side=tk.LEFT, padx=5)
+       
         # Box de listagem para exibir tarefas
         self.tasks_listbox = tk.Listbox(self.window, width=100, height=10,  borderwidth="10", bg="black", font="oswald", foreground="white")
         self.tasks_listbox.pack(pady=10)
