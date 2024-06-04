@@ -70,7 +70,7 @@ PyMengo/
 <h2>Bernardo:</h2>
 <p>Github -https://github.com/bedibe </p> 
 
-<h2>João Pedro :</h2>
+<h2>João Pedro Almeida :</h2>
 <p>Github - https://github.com/jpalmeida01</p>
 
 
