@@ -92,7 +92,8 @@ class TaskManager:
         self.tasks_listbox.pack(pady=10)
 
         self.window.mainloop()
-    #alerts para os botões 
+        
+        #alerts para os botões 
     def add_task(self):
         title = self.title_entry.get()
         description = self.description_entry.get()
